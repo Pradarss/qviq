@@ -1,0 +1,224 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  padding: 0 16px;
+}
+
+header {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  justify-content: space-between;
+  display: flex;
+}
+
+header .title {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  background-color: #f5ba13;
+  color: white; 
+  border: none;
+  padding: 10px 20px;   
+  cursor: pointer;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  width: 100vw;
+  height: 2.5rem;
+  justify-content: center;
+  display: flex;
+  bottom: 0;
+}
+
+footer p {
+  color: #ccc;
+  bottom: 0;
+}
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  min-width: 320px;
+  max-width: min-content;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #f5ba13;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+}
+
+.createarea{
+  height: auto;
+}
+
+form.create-note {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+.home{
+  height: 90%;
+  width: 100%;
+  left: 0%;
+  top: 10%;
+  position: absolute;
+  background: #f5ba13;
+}
+
+.home h1{
+  font-size: 5rem;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  top: 40vh;
+}
+
+.home p {
+  font-size: 3rem;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  top: 45vh;
+}
+
+#loginform{
+  max-width: 500px;
+  min-width: 300px;
+  max-height: 700px;
+  width: 30%;
+  height: 60%;
+  margin: 100px auto;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+#headerTitle{
+  text-align: center;
+  font-family: 'open sans', sans-serif;
+  padding: 2rem 0;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  max-width: 100%;
+  
+}
+
+.row input{
+  width: 80%;
+  box-sizing: border-box;
+	border: none;
+  font-size: 1.3rem;
+  padding-left: 1.5rem;
+  padding-bottom: 1rem;
+  box-shadow: inset 0px -3px 0px 0px rgba(187,187,187,0.2);
+  transition: box-shadow 0.2s ease-in;
+}
+
+.row input:focus{
+   box-shadow: inset 0px -3px 0px 0px #f5ba13;
+   outline: none;
+}
+
+.row label{
+  align-self: start;
+  padding-left: 4.5rem;
+  padding-bottom: 0.5rem;
+  color: rgba(187,187,187,0.9);
+}
+
+.row button{
+  border-radius: 25px;
+  width: 80%;
+  height: 40px;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 700;
+  background: #f5ba13;
+  border: 0px;
+  cursor: pointer;
+  transition: opacity 0.25s ease-out;
+}
+
+.row button:hover{
+  opacity: 0.8;
+}
+
+#button{
+  padding-bottom: 1.5rem;
+}
+
+#alternativeLogin {
+  text-align: center;
+  padding-top: 2rem;
+  margin-top: 1.5rem;
+}
